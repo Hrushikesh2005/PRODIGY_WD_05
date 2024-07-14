@@ -1,0 +1,126 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto';
+        }
+        body{
+            background-color: #201e1e;
+        }
+
+        /*container*/
+        .box0{
+            width: 50%;
+            height: auto;
+           /* background: linear-gradient(135deg,#00feba,#5b548a);*/
+           background-color: rgba(0, 0, 0, 0.5);
+            /*background: transparent;*/
+            color: #fff;
+            margin: 50px auto 0;
+            border-radius: 20px;
+            padding: 30px 35px;
+            text-align: center;
+        }
+
+        /*Header*/
+        .header{
+            padding: 8px;
+        }
+        /*search bar*/
+        .search{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .search input{
+            border: 0;
+            outline: 0;
+            background: white;
+            padding: 10px 25px;
+            height: 60px;
+            flex: 1;
+            font-size: 18px;
+            margin-right: 16px;
+            border-radius: 30px;
+        }
+        .search button{
+            border: 0;
+            outline: 0;
+            background: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 60px;
+        }
+        .search button:hover{
+            background-color: rgb(149, 147, 154);
+            border: 1px solid white;
+            transform: translateY(-2px);
+        }
+
+        /*weather*/
+        .current_weather{
+            width: 250px;
+            height: 250px;
+            padding-top: 15px;
+            padding-bottom: 5px;
+        }
+
+        .weather_status{
+            font-size: 30px;
+            font-weight: 500;
+            padding: 5px;
+        }
+       .temp{
+        font-size: 45px;
+        font-weight: 900;
+       }
+       .city{
+        font-size: 30px;
+       }
+       .details{
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: space-between;
+        margin-top: 50px;
+        font-size: 35px;
+       }
+       
+       .col{
+        display: flex;
+        align-items: center;
+       }
+
+       .col img{
+        width: 100px;
+        height: 100px;
+        margin-right: 8px;
+       }
+
+       .text{
+        font-size: 18px;
+       }
+       .weather{
+        display: none;
+       }
+       .error{
+        text-align: center;
+        font-size: 30px;
+        display: none;
+       }
+
+      .bgvideo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        object-fit: cover;
+    }
+    
